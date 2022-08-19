@@ -938,12 +938,19 @@
         padding-left: 10.375em;
         font-family: 'Cinzel', serif;
     }
+    
+    #wanye {
+        padding-left: 39.275em;
+        bottom: 12%
+    }
 </style>
 <script>
     // document.getElementById("wayne-land").innerHTML = "Wayne Enterprises";
     $(document).ready(function() {
         // $("#wayne-land").html("Wayne Enterprises");
-        $("#app-background-image").append("<br><br><br><br><span id='wayne-land' class='land-wayne'>Wayne Enterprises</span>");
+
+        // $("#app-background-image").append("<br><br><br><br><span id='wayne-land' class='land-wayne'>Wayne Enterprises</span>");
+        $("#app-background-image").append("<object id='wanye' data='./svg/Wayne Enterprises Logo.svg' width='400' height='400'> </object>");
         $(".fa-bolt").css("color", "lightskyblue");
         $(".fa-bolt").css("letter-spacing", "0.45em");
         $(".fa-cutlery").css("color", "palegoldenrod");
